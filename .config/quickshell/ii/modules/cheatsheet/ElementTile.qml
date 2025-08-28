@@ -28,7 +28,7 @@ RippleButton {
             id: elementNumber
             anchors.centerIn: parent
             color: Appearance.colors.colOnLayer2
-            text: root.element.number
+            text: root.element.weight
             font.pixelSize: Appearance.font.pixelSize.smallest
         }
     }
@@ -46,7 +46,7 @@ RippleButton {
         anchors {
             horizontalCenter: parent.horizontalCenter
             bottom: parent.bottom
-            bottomMargin: 4
+            bottomMargin: 2
         }
         font.pixelSize: Appearance.font.pixelSize.smallest
         color: Appearance.colors.colOnLayer2
